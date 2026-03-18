@@ -9,11 +9,17 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/investments")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "*")
 public class InvestmentController {
 
     @Autowired
     InvestmentRepository repo;
+
+    @GetMapping("/init")
+    public String init() {
+        repo.save(new Investment());
+        return "Initialized";
+    }
 
     @GetMapping
     public List<Investment> getAllInvestments(){

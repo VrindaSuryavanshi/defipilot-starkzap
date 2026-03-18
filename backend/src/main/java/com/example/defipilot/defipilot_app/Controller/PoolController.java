@@ -12,7 +12,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/pools")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "*")
 public class PoolController {
 
     @Autowired

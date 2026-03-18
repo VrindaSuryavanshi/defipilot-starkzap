@@ -8,6 +8,7 @@ public class DefipilotAppApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DefipilotAppApplication.class, args);
+
 	}
 
 }
