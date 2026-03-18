@@ -60,11 +60,11 @@ function Dashboard(){
 
   <div>
 
-    <div className="flex min-h-screen">
+    <div className="flex flex-col md:flex-row min-h-screen">
 
       <Sidebar isOpen={isOpen} setIsOpen={setIsOpen}/>
 
-      <div className="flex-1 bg-gray-100">
+      <div className="flex-1 w-full bg-gray-100">
 
         <Navbar setIsOpen={setIsOpen} setWallet={setWallet} />
        

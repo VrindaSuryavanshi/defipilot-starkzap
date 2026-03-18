@@ -23,7 +23,7 @@ function PortfolioTracker({ investments, pools }) {
             key={i.id}
             className="flex justify-between bg-gray-50 p-3 rounded-xl shadow-sm hover:shadow-md transition"
           >
-            <span className="font-medium text-gray-700">{i.wallet}</span>
+            <span className="font-medium text-gray-700 truncate block max-w-full">{i.wallet}</span>
             <span className="text-gray-600">
               ${i.amount} in {getPoolToken(i.poolId)}
             </span>
