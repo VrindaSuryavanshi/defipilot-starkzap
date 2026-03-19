@@ -8,8 +8,7 @@ Built using **React, Spring Boot, and Starknet ecosystem tools**.
 
 ##  Live Demo
 
-Frontend: https://defipilot-starkzap-frontend-xboe.vercel.app/
-Backend API: https://defipilot-starkzap-backend-y6pf.onrender.com
+Live: https://defipilot-starkzap-frontend-xboe.vercel.app/
 
 ---
 
